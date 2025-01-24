@@ -33,7 +33,7 @@ app.get("/questions", (req: Request, res: Response) => {
 
 const { Schema } = mongoose;
 
-mongoose.connect(process.env.MONGODB_URI || 'MONGO_DB', {
+mongoose.connect(process.env.MONGODB_URI || 'MONGODB_URI', {
 
 });
 
